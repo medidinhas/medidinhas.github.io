@@ -1,0 +1,12 @@
+{
+    "products":[
+        {"value":"acucar", "name":"Açucar", "pesoliquido":1000},
+        {"value":"sal", "name":"Sal", "pesoliquido":200}
+    ],
+
+    "amounts":[
+        {"value":1000, "name":"Quilogramas"},
+        {"value":1, "name":"Gramas"},
+        {"value":200, "name":"Xícara (chá)"}
+    ]
+}

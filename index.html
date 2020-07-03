@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Medidinhas</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="./src/static/css/style.css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-md primary-color navbar-dark">
+  <a class="navbar-brand" href="#">Medidinhas</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Medidas</a>
+      </li>
+       <!-- <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>      -->
+    </ul>
+  </div>  
+</nav>
+<br>
+
+<div class="container form-medidas">
+  <h3>Conversor de Medida</h3>
+  <form>
+
+    <div class="form-row">
+      <div class="col" id="caixa-ingredientes">
+        <!-- <select id="caixa-ingredientes" class="custom-select mb-3" data-style="btn-primary">
+          <option selected>Selecione o produto</option>
+        </select> -->
+      </div>
+    </div>
+
+    <div class="form-row">
+      <div class="col" id="medidas-entrada">
+        <!-- <select id="quantidade-entrada" class="custom-select mb-3">
+          <option selected>Un. Medida</option>
+        </select> -->
+      </div>
+
+      <div class="col-1 primary-text-color" style="text-align: center; padding: 10px;">
+        <i class="fas fa-angle-double-right"></i>
+      </div>
+
+      <div class="col" id="medidas-saida">
+        <!-- <select id="quantidade-saida" class="custom-select mb-3">
+          <option selected>Un. Medida</option>
+        </select> -->
+      </div>
+    </div>
+
+    <div class="form-row">
+      <div class="col">
+        <input id="quantidade-entrada" type="text" class="form-control" placeholder="Quantidade">
+      </div>
+
+      <div class="col-1 primary-text-color" style="text-align: center; padding: 5px;">
+        <i class="fas fas fa-balance-scale"></i>
+      </div>
+
+      <div class="col">
+        <input id="quantidade-saida" type="text" class="form-control" placeholder=" 0.00 " readonly>
+      </div>
+    </div>
+
+    <div class="form-row">
+      <div class="col">
+        <br>
+        <button id="botao-converter" type="button" class="btn btn-primary-color btn-block">Converter</button>
+      </div>
+    </div>
+
+  </form>
+
+</div>
+
+</body>
+<script src="./src/static/js/index.js"></script>
+</html>

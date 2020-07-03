@@ -1,0 +1,27 @@
+/* primary color #8e24aa */
+/* P — Light #c158dc */
+/* P — Dark #5c007a */
+
+.primary-color{background-color: #8e24aa;}
+.primary-color-light{background-color: #c158dc;}
+.primary-color-dark{background-color: #5c007a;}
+
+.primary-text-color{color: #8e24aa;}
+.primary-text-color-light{color: #c158dc;}
+.primary-text-color-dark{color: #5c007a;}
+
+.btn-primary-color{
+    background-color: #5c007a;
+    color: white;
+}
+.btn-primary-color:hover{
+    background-color: #c158dc;
+    color: #FFF;
+}
+
+.form-medidas{
+    max-width: 400px;
+    text-align: center;
+}
+
+
